@@ -1,0 +1,10 @@
+Link toy_link.txt
+Attribute toy_data.txt
+n 9
+D 12
+K 2
+ep 0.00000001
+N 1000
+lamda 0.1
+verbosity 2
+seed 1
