@@ -1,10 +1,26 @@
+=======================================
+=== Team YesSQL CS511 Project Codes ===
+=======================================
+
 fb_main.py is the main file for our experiments.
 
+Run:
 To run different experiment, comment/uncomment the bottom of the code for the expected experiment, and run "python fb_main.py" from command line.
-The default input path for this file is testdata under the same folder, which is included. The output path can be configured, see the code for details
+
+Input/Output
+The default input path for this file is testdata under the same folder, which is included. 
+The output path can be configured, see the code for details
+
+-------------------------------------------------------------------------------------------
 
 fb_metis.py is a utility program for converting fb dataset into METIS format.
-run: python fb_metis.py [egonetwork number]
+
+Run: 
+python fb_metis.py [egonetwork number]
 output: fb network structure in METIS format
 
 Dependecies are : networkx, numpy, itertools
+
+-------------------------------------------------------------------------------------------
+
+Raw Facebook data is available at http://snap.stanford.edu/data/egonets-Facebook.html
